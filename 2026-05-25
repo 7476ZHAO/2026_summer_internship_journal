@@ -1,0 +1,7 @@
+Today I worked on testing and reviewing multiple PRs in the Avatar repository. I created local branches for different PRs, set up and used a Python virtual environment, and ran the applications locally for integration testing.
+
+For PR #26 (manual drone controller module), I successfully tested the drone connection and movement controls including takeoff, landing, and directional commands. I also tested the newly added camera streaming functionality. Although the `streamon` command returned `ok` in the logs, the camera view still displayed “No video,” and the Capture feature did not appear to work. I reviewed logs and traced parts of the video streaming pipeline for debugging.
+
+I also reviewed another PR related to the BCI device switch button in the Avatar UI. I verified that the frontend button appeared correctly, the UI updated properly when switching between OpenBCI and Neurosity, and no major crashes occurred during testing.
+
+Additionally, I spent time investigating the backend architecture related to OpenBCI integration. I traced connections between QML frontend components and Python backend files, explored BrainFlow integration code, and identified potential issues including a hardcoded macOS serial port path and incomplete OpenBCI session initialization logic.
