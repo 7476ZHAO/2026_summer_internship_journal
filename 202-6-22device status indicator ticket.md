@@ -10,7 +10,7 @@
 * set the venv
 * compare different ways to indicate the status of device Crown: final case: add a button next to headset selection button
 * correct the location of the headset selection button
-## things need to to and check
+## things need to do and check
 * left bottom connect button, related to func setDataMode( ), looks like the neurosity is not related to this button, consider after issue 39 finished
 * add a button next to headset selection button
 * add a func in neurosityprocessor.py file checking the status of Crown device
