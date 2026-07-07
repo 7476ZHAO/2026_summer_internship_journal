@@ -14,7 +14,7 @@
 * left bottom connect button, related to func setDataMode( ), looks like the neurosity is not related to this button, consider after issue 39 finished
 * add a button next to headset selection button
 * add a func in neurosityprocessor.py file checking the status of Crown device
-#  2026-7-6
+#  2026-7-7
 ## things done
 * test if there is state in dict status of neurosity SDK
 * update PR of adding missing dependencies in requirements.txt
