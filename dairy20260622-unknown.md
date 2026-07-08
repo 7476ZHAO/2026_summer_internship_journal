@@ -22,6 +22,20 @@
 * learn __name__ built-in value in python
 ## things need to do and check
 * understand the Callback mechanism
-* finish the backend part of issue 39: add state checking in func get_neurosity_brainwave_data(self), add state change func connect to UI
+* finish the backend part of issue 39: add state check in func get_neurosity_brainwave_data(self), add state change func connect to UI
 * finish the ui part of issue 39: 
 * test
+#  2026-7-8
+## things done
+* understand callback mechanism
+* add status check in func get_tensor()
+* add state check in func get_neurosity_brainwave_data()
+* test func get_tensor() and get_device_state ()
+## things need to do and check
+* online offline status indicate cannot stop the live data streaming
+* submit PR to Neurosity about the device offline indicator problem, modify func stream_metric() and brainwaves_raw():
+```text
+When the device goes offline during an active brainwaves_raw subscription, the SDK continues to deliver buffered/database data without any indication that the device is no longer connected. This makes it difficult to determine whether EEG acquisition is truly live. It would be helpful if the SDK could notify subscribers (e.g., via an error, stream termination, or offline callback) when the device disconnects.
+```
+* state cannot update in realtime, need to continue test
+* finish the ui part of issue 39
