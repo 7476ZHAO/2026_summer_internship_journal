@@ -39,3 +39,8 @@ When the device goes offline during an active brainwaves_raw subscription, the S
 ```
 * state cannot update in realtime, need to continue test
 * finish the ui part of issue 39
+# 2026-7-9
+## things done
+* check the inconsistant reason of status in different ways, didn't figureout
+## things need to do and check
+* continue checking
