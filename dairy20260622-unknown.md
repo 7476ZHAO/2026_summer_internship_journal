@@ -3,7 +3,7 @@
 * check neurosity pipeline repo, find that the random forest pytorch and tensorflow didn't use feature extraction, maybe crown can be improved in this aspect
 * check the neurosity SDK, 
 * remind classmates update branch and resubmit
-#  2026-7-6
+#  2026-7-6 (3h)
 ## things done
 * begin working on issue 39
 * figure out how to develop scripts based on unmerged PR
@@ -14,7 +14,7 @@
 * left bottom connect button, related to func setDataMode( ), looks like the neurosity is not related to this button, consider after issue 39 finished
 * add a button next to headset selection button
 * add a func in neurosityprocessor.py file checking the status of Crown device
-#  2026-7-7
+#  2026-7-7 (3.5h)
 ## things done
 * test if there is state in dict status of neurosity SDK
 * update PR of adding missing dependencies in requirements.txt
@@ -25,7 +25,7 @@
 * finish the backend part of issue 39: add state check in func get_neurosity_brainwave_data(self), add state change func connect to UI
 * finish the ui part of issue 39: 
 * test
-#  2026-7-8
+#  2026-7-8 (3h)
 ## things done
 * understand callback mechanism
 * add status check in func get_tensor()
@@ -39,8 +39,14 @@ When the device goes offline during an active brainwaves_raw subscription, the S
 ```
 * state cannot update in realtime, need to continue test
 * finish the ui part of issue 39
-# 2026-7-9
+# 2026-7-9 (2.75h)
 ## things done
 * check the inconsistant reason of status in different ways, didn't figureout
 ## things need to do and check
 * continue checking
+# 2026-7-10 (2.5h)
+## things done
+* finish checking of inconsistant status in different ways, just restart the device
+## things need to do and check
+* maybe there is a possibility that the live data is correct
+* the original version cannot show live data, need to figureout
