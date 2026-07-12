@@ -50,3 +50,21 @@ When the device goes offline during an active brainwaves_raw subscription, the S
 ## things need to do and check
 * maybe there is a possibility that the live data is correct
 * the original version cannot show live data, need to figureout
+# 2026-7-11 (4.5h)
+## things done
+* inconsistant status problem checking: giving up cache status, only use status_once
+* test the func
+* add func emitNeurosityStatus(), and update status in setBCISource() and get_neurosity_brainwave_data()
+* add `property string neurosityStatus: "Offline"` ,
+  ```qml
+  Connections {
+    function onNeurosityStatusChanged(status) {
+        neurosityStatus = status
+    }
+  }
+  ```
+  change neurosity button text
+  
+## thins to be done
+* decide if the status need to be real time
+* delete print statement which was used for test
