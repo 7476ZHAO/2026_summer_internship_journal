@@ -68,3 +68,9 @@ When the device goes offline during an active brainwaves_raw subscription, the S
 ## thins to be done
 * decide if the status need to be real time
 * delete print statement which was used for test
+# 2026-7-12
+## things done
+* try to make the neurosity status change in real time but failed and got some new problem
+## things need to be done
+* continue test the state pronlem
+
