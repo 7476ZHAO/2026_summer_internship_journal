@@ -73,7 +73,7 @@ When the device goes offline during an active brainwaves_raw subscription, the S
 * try to make the neurosity status change in real time but failed and got some new problem
 ## things need to be done
 * continue test the state pronlem
-# 2026-7-13(h)
+# 2026-7-13(4.5h)
 ## things done
 * finish the test of inconsistant status issue
 * record the demo video for the new func
