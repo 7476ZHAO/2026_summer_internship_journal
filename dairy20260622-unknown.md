@@ -82,3 +82,10 @@ When the device goes offline during an active brainwaves_raw subscription, the S
 ## things need to be done
 * start the log in page design
 * branch conflict problem
+# 2026-7-14(3h)
+## things done
+* find the problem of current Tellekynezix repo, file`ArtificialIntelligence.qml` missing a `}` and file `ReadBrain.qml` has two extra paragraphs of code about headset selection
+* merge branch `main` of Tellekynezix-jiali to branch `issue-39-neurosity-status-indicator`
+* create PR for issue 39
+## things to be done
+* start log in page design
