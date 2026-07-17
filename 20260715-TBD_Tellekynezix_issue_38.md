@@ -1,6 +1,6 @@
 # 2026-7-15
 ## things done
-UI design idea
+* UI design idea
 ```text
 1.account log in does not mean device online, need to remind user to connect device by phone App
 2.design log out allow logging out current account to log in another account
