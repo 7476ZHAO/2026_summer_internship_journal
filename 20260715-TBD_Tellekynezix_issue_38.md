@@ -2,10 +2,10 @@
 ## things done
 UI design idea
 ```text
-* 1.account log in does not mean device online, need to remind user to connect device by phone App
-* 2.design log out allow logging out current account to log in another account
+1.account log in does not mean device online, need to remind user to connect device by phone App
+2.design log out allow logging out current account to log in another account
 ```
-### test if developers can get device id from firebase through user account and password, the result is cannot
+* test if developers can get device id from firebase through user account and password, the result is cannot
 ## things need to do
 ### factors need to consider
 * continue test the way to get device id through user account and password
