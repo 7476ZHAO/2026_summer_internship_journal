@@ -25,14 +25,6 @@
 * finish code and code
 # 2026-7-17
 ## things done
-* UI design idea
-```text
-1. account logging in does not mean device online, need to remind user to connect device by phone App
-2. design log out allow logging out current account to log in another account
-3. need to get neurosity button of artificialintelligence page same to readbrain page
-4. reminder of `Device already bound to another account.`
-5. show the user all available device name when log in
-```
 * figure out where to put the function log out
 ```text
 using message box:
