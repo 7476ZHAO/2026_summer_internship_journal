@@ -23,5 +23,25 @@
 ## things need to do
 * understand the data flow when log in
 * finish code and code
+# 2026-7-17
+## things done
+* UI design idea
+```text
+1. account logging in does not mean device online, need to remind user to connect device by phone App
+2. design log out allow logging out current account to log in another account
+3. need to get neurosity button of artificialintelligence page same to readbrain page
+4. reminder of `Device already bound to another account.`
+5. show the user all available device name when log in
+```
+* figure out where to put the function log out
+```text
+using message box:
+when user already log in, click neurosity button will show the information and log out option
+when user has not log in, click neurosity button will remind user entering the information of account and password
+```
+* Add login(), logout(), get_devices(), and select_device(); remove _load_env(); update initial variables accordingly
+## things need to do
+* headset selection backend need to modify to comply with the login func, click neurosity button will show up a message box which remind user log in
+* UI part code finish
 
 
