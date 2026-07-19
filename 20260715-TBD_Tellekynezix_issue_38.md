@@ -35,5 +35,11 @@ when user has not log in, click neurosity button will remind user entering the i
 ## things need to do
 * headset selection backend need to modify to comply with the login func, click neurosity button will show up a message box which remind user log in
 * UI part code finish
-
+# 2026-7-18
+## things done
+* Designed the data flow and reduced the responsibilities of the QML layer.
+* Added new backend functions to support the updated architecture.
+## things need to do
+* Continue refining the data flow between the frontend and backend.
+* Implement the remaining backend and QML logic.
 
