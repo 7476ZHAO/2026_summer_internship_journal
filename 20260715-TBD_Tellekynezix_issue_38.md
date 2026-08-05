@@ -42,4 +42,10 @@ when user has not log in, click neurosity button will remind user entering the i
 ## things need to do
 * Continue refining the data flow between the frontend and backend.
 * Implement the remaining backend and QML logic.
+# 2026-8-4
+## things done
+* Solve the issue where a function defined in `NeurosityDataProcessor` is being called through the `BrainwavesBackend` class in QML.
+## things need to do
+* library conflicts in qml
+* how to switch device when already login one device
 
