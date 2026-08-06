@@ -55,4 +55,14 @@ when user has not log in, click neurosity button will remind user entering the i
 ## things need to do
 * state conflict in device select dialog and neurosity button
 * how to switch device when already login one device
-
+# 2026-8-6
+## things done
+* Solve the issue state conflict in device select dialog and neurosity button
+```text
+no return value from func `selectNeurosityDevice()` in file `GUI5.py`, but in `ReadBrain.qml` dialog of devicedialog there is statement like `var state = backend.selectNeurosityDevice()` waiting for the return value from `selectNeurosityDevice()`
+```
+* reinitial object of neurosityprocessor problem, caused by the missing statement `self.neurosity_connected = True`
+* device switch can be realized by click button Neurosity
+## things need to do
+* test when there are several devices online if user can switch
+* record the test video
