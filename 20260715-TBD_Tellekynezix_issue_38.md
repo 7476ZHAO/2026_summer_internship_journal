@@ -48,4 +48,11 @@ when user has not log in, click neurosity button will remind user entering the i
 ## things need to do
 * library conflicts in qml
 * how to switch device when already login one device
+# 2026-8-5
+## things done
+* Solve the issue library conflicts in qml
+* solve the issue `auth.sign_in()` didn't work, substitute it with `auth.sign_in_with_email_and_password()`
+## things need to do
+* state conflict in device select dialog and neurosity button
+* how to switch device when already login one device
 
