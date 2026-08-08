@@ -66,3 +66,9 @@ no return value from func `selectNeurosityDevice()` in file `GUI5.py`, but in `R
 ## things need to do
 * test when there are several devices online if user can switch
 * record the test video
+# 2026-8-7
+## things done
+* tested when there are several devices online if user can switch
+* Solved the issue when switch the device no new client is created which lead to the incorrect state display: modified the func `select_device()` in file `neurosityprocessor.py`
+## things need to do
+* record the test video
