@@ -72,3 +72,8 @@ no return value from func `selectNeurosityDevice()` in file `GUI5.py`, but in `R
 * Solved the issue when switch the device no new client is created which lead to the incorrect state display: modified the func `select_device()` in file `neurosityprocessor.py`
 ## things need to do
 * record the test video
+# 2026-8-11
+## things done
+* record the test video
+## things need to be done
+* allow account switch without exit the app
