@@ -77,3 +77,10 @@ no return value from func `selectNeurosityDevice()` in file `GUI5.py`, but in `R
 * record the test video
 ## things need to be done
 * allow account switch without exit the app
+# 2026-9-17
+## things done
+* add logout func in `GUI5.py`
+* Added "Sign Out", "Close" buttons on loginDialog, allow switch account
+* Added "Back" button on deviceDialog
+## things need to be done
+* Record the demo video again
