@@ -84,3 +84,4 @@ no return value from func `selectNeurosityDevice()` in file `GUI5.py`, but in `R
 * Added `Back` button on deviceDialog
 ## things need to be done
 * Record the demo video again
+* Restore the yeallow circle around the neurosity button after switch
